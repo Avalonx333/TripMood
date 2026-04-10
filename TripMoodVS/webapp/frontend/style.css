@@ -1,0 +1,38 @@
+#header {
+
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#accesso {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+#rating {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  font-size: 45px;
+  margin-top: -220px;
+  background:linear-gradient(#5fa8d3, #7b6cf6, 90deg);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#img1 {
+  margin-top: -100px;
+  height: 853px;
+  width: 1280px;
+}
